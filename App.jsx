@@ -145,82 +145,32 @@ const App = () => {
                         </div>
 
                     <div className="md:w-1/2 w-full">
-    <div className="bg-slate-800 rounded-2xl p-6 border border-slate-700 shadow-2xl transform rotate-1 hover:rotate-0 transition duration-500">
-        
-        {/* Header */}
-        <div className="flex items-center gap-2 mb-4 border-b border-slate-700 pb-4">
-            <div className="w-3 h-3 rounded-full bg-red-500"></div>
-            <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
-            <div className="w-3 h-3 rounded-full bg-green-500"></div>
-            <div className="text-xs text-slate-400 ml-auto">Tech Stack</div>
-        </div>
-
-        {/* GRID — expanded 10 items */}
-        <div className="grid grid-cols-2 gap-4">
-
-            {/* 1 */}
-            <div className="bg-slate-700/50 p-4 rounded-xl text-center">
-                <div className="text-blue-400 font-bold text-xl mb-1">React</div>
-                <div className="text-xs text-slate-400">Frontend UI</div>
-            </div>
-
-            {/* 2 */}
-            <div className="bg-slate-700/50 p-4 rounded-xl text-center">
-                <div className="text-green-400 font-bold text-xl mb-1">Node.js</div>
-                <div className="text-xs text-slate-400">Backend API</div>
-            </div>
-
-            {/* 3 */}
-            <div className="bg-slate-700/50 p-4 rounded-xl text-center">
-                <div className="text-purple-400 font-bold text-xl mb-1">OpenAI</div>
-                <div className="text-xs text-slate-400">AI Generation</div>
-            </div>
-
-            {/* 4 */}
-            <div className="bg-slate-700/50 p-4 rounded-xl text-center">
-                <div className="text-cyan-400 font-bold text-xl mb-1">PostgreSQL</div>
-                <div className="text-xs text-slate-400">Database</div>
-            </div>
-
-            {/* 5 */}
-            <div className="bg-slate-700/50 p-4 rounded-xl text-center">
-                <div className="text-indigo-300 font-bold text-xl mb-1">Vercel</div>
-                <div className="text-xs text-slate-400">Hosting & Deployment</div>
-            </div>
-
-            {/* 6 */}
-            <div className="bg-slate-700/50 p-4 rounded-xl text-center">
-                <div className="text-orange-300 font-bold text-xl mb-1">Firebase</div>
-                <div className="text-xs text-slate-400">Auth & Storage</div>
-            </div>
-
-            {/* 7 */}
-            <div className="bg-slate-700/50 p-4 rounded-xl text-center">
-                <div className="text-teal-300 font-bold text-xl mb-1">Mapbox</div>
-                <div className="text-xs text-slate-400">Geolocation Maps</div>
-            </div>
-
-            {/* 8 */}
-            <div className="bg-slate-700/50 p-4 rounded-xl text-center">
-                <div className="text-sky-300 font-bold text-xl mb-1">Tailwind</div>
-                <div className="text-xs text-slate-400">Styling System</div>
-            </div>
-
-            {/* 9 */}
-            <div className="bg-slate-700/50 p-4 rounded-xl text-center">
-                <div className="text-red-300 font-bold text-xl mb-1">Redis</div>
-                <div className="text-xs text-slate-400">Caching</div>
-            </div>
-
-            {/* 10 */}
-            <div className="bg-slate-700/50 p-4 rounded-xl text-center">
-                <div className="text-lime-300 font-bold text-xl mb-1">Docker</div>
-                <div className="text-xs text-slate-400">Containers</div>
-            </div>
-
-        </div>
-    </div>
-</div>
+                            <div className="bg-slate-800 rounded-2xl p-6 border border-slate-700 shadow-2xl transform rotate-1 hover:rotate-0 transition duration-500">
+                                <div className="flex items-center gap-2 mb-4 border-b border-slate-700 pb-4">
+                                    <div className="w-3 h-3 rounded-full bg-red-500"></div>
+                                    <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
+                                    <div className="w-3 h-3 rounded-full bg-green-500"></div>
+                                    <div className="text-xs text-slate-400 ml-auto">Tech Stack</div>
+                                </div>
+                                <div className="grid grid-cols-2 gap-4">
+                                    <div className="bg-slate-700/50 p-4 rounded-xl text-center">
+                                        <div className="text-blue-400 font-bold text-xl mb-1">React</div>
+                                        <div className="text-xs text-slate-400">Frontend UI</div>
+                                    </div>
+                                    <div className="bg-slate-700/50 p-4 rounded-xl text-center">
+                                        <div className="text-green-400 font-bold text-xl mb-1">Node.js</div>
+                                        <div className="text-xs text-slate-400">Backend API</div>
+                                    </div>
+                                    <div className="bg-slate-700/50 p-4 rounded-xl text-center">
+                                        <div className="text-purple-400 font-bold text-xl mb-1">OpenAI</div>
+                                        <div className="text-xs text-slate-400">Generative Content</div>
+                                    </div>
+                                    <div className="bg-slate-700/50 p-4 rounded-xl text-center">
+                                        <div className="text-cyan-400 font-bold text-xl mb-1">PostgreSQL</div>
+                                        <div className="text-xs text-slate-400">Database</div>
+                                    </div>
+                                </div>
+                            </div>
 
                         </div>
                     </div>
